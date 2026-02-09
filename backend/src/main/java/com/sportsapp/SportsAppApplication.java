@@ -11,7 +11,7 @@ public class SportsAppApplication {
     public static void main(String[] args) {
         SpringApplication.run(SportsAppApplication.class, args);
     }
-    
+
     @Bean
     public WebMvcConfigurer corsConfigurer() {
         return new WebMvcConfigurer() {
